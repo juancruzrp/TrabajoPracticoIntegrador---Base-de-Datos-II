@@ -34,7 +34,6 @@ GO
 CREATE TABLE Categorias (
     IDCategoria INT IDENTITY(1,1) PRIMARY KEY,
     Nombre VARCHAR(100) NOT NULL,
-    Descripcion VARCHAR(255)
 );
 GO
 
