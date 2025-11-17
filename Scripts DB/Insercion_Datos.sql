@@ -49,13 +49,13 @@ VALUES
 INSERT INTO Productos (Nombre, Descripcion, Precio, Stock, StockMinimo, IDCategoria, IDProveedor, IDMarca)
 VALUES
 ('Martillo Uña', 'Martillo de acero', 4500, 20, 10 , 1, 1, 1),
-('Pinza Universal', 'Pinza 8 pulgadas', 3500, 15, 12, 1, 1, 1),
-('Taladro Bosch', 'Taladro percutor 600W', 55000, 10, 15, 2, 2, 2),
-('Pintura Blanca 4L', 'Pintura látex interior', 12000, 12, 14, 3, 3, 8),
-('Cemento x 25kg', 'Bolsa cemento Avellaneda', 3800, 50, 25, 4, 4, 7),
+('Pinza Universal', 'Pinza 8 pulgadas', 3500, 15, 10, 1, 1, 1),
+('Taladro Bosch', 'Taladro percutor 600W', 55000, 10, 5, 2, 2, 2),
+('Pintura Blanca 4L', 'Pintura látex interior', 12000, 12, 10, 3, 3, 8),
+('Cemento x 25kg', 'Bolsa cemento Avellaneda', 3800, 50, 15, 4, 4, 7),
 ('Llave Termomagnética', 'Llave 20A', 2500, 30, 8, 2, 5, 8),
-('Cinta Métrica 5m', 'Truper profesional', 2700, 25, 18, 8, 6, 5),
-('Amoladora 850W', 'Amoladora Makita', 65000, 8, 11, 2, 7, 6);
+('Cinta Métrica 5m', 'Truper profesional', 2700, 25, 15, 8, 6, 5),
+('Amoladora 850W', 'Amoladora Makita', 65000, 8, 5, 2, 7, 6);
 
 
 INSERT INTO Compras (Fecha, IDProveedor, Total)
